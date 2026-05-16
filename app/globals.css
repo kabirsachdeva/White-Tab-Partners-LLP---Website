@@ -1,46 +1,75 @@
 @import "tailwindcss";
 
-:root {
-  --font-cormorant: "Cormorant Garamond", Georgia, serif;
-  --font-inter: "Inter", system-ui, sans-serif;
+/* ─── Tailwind v4 Theme ─────────────────────────────────────────────────── */
+@theme {
+  /* Fonts */
+  --font-serif: var(--font-cormorant), Georgia, serif;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+
+  /* Dark palette */
+  --color-dark: #0C0C10;
+  --color-dark-secondary: #141418;
+  --color-dark-card: #1A1A22;
+
+  /* Gold palette */
+  --color-gold: #8B6914;
+  --color-gold-light: #B8943F;
+  --color-gold-pale: #D4AF6A;
+  --color-gold-muted: #6B5010;
+
+  /* Cream palette */
+  --color-cream: #F5EDD8;
+  --color-cream-light: #FAF6ED;
+  --color-cream-dark: #E8D9B8;
+
+  /* Max width */
+  --container-8xl: 88rem;
+
+  /* Spacing */
+  --spacing-section: 6rem;
+  --spacing-18: 4.5rem;
+  --spacing-22: 5.5rem;
+
+  /* Animations */
+  --animate-fade-up: fadeUp 0.6s ease-out forwards;
+  --animate-fade-in: fadeIn 0.5s ease-out forwards;
+
+  /* Keyframes */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
+/* ─── Utility classes not covered by Tailwind ──────────────────────────── */
+.max-w-8xl  { max-width: 88rem; }
 
-html {
-  scroll-behavior: smooth;
-}
+/* ─── Base ──────────────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
 
 body {
   background: #0C0C10;
   color: #F5EDD8;
-  font-family: var(--font-inter);
+  font-family: var(--font-inter), system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-::selection {
-  background: #8B6914;
-  color: #FAF6ED;
-}
+::selection { background: #8B6914; color: #FAF6ED; }
 
-::-webkit-scrollbar {
-  width: 6px;
-}
-::-webkit-scrollbar-track {
-  background: #0C0C10;
-}
-::-webkit-scrollbar-thumb {
-  background: #8B6914;
-  border-radius: 3px;
-}
+::-webkit-scrollbar        { width: 6px; }
+::-webkit-scrollbar-track  { background: #0C0C10; }
+::-webkit-scrollbar-thumb  { background: #8B6914; border-radius: 3px; }
 
+/* ─── Design tokens as utilities ────────────────────────────────────────── */
 .section-label {
-  font-family: var(--font-inter);
+  font-family: var(--font-inter), system-ui, sans-serif;
   font-size: 0.7rem;
   font-weight: 500;
   letter-spacing: 0.2em;
@@ -59,3 +88,18 @@ body {
   background: #B8943F;
   flex-shrink: 0;
 }
+
+.dark-card {
+  background: #1A1A22;
+  border: 1px solid rgba(139, 105, 20, 0.15);
+  border-radius: 0.75rem;
+}
+
+.heading-serif { font-family: var(--font-cormorant), Georgia, serif; }
+.gold-text     { color: #B8943F; }
+
+/* ─── Fluid display sizes (used via className in components) ────────────── */
+.text-display-xl { font-size: clamp(3rem,   6vw,  5.5rem); line-height: 1.05; letter-spacing: -0.02em; }
+.text-display-lg { font-size: clamp(2.5rem, 4.5vw, 4rem);  line-height: 1.1;  letter-spacing: -0.01em; }
+.text-display-md { font-size: clamp(2rem,   3.5vw, 3rem);  line-height: 1.15; }
+.text-display-sm { font-size: clamp(1.5rem, 2.5vw, 2rem);  line-height: 1.2;  }
