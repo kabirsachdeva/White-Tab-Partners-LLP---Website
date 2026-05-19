@@ -20,11 +20,7 @@ export default function Hero() {
         </div>
 
         <div className="relative z-10 max-w-5xl mx-auto px-6 lg:px-12 text-center">
-          <p className="section-label justify-center mb-10">
-            Advocates, Solicitors &amp; Legal Consultants
-          </p>
-
-          <h1 className="font-serif mb-6">
+          <h1 className="font-serif mb-6 mt-4">
             <span
               className="block text-[clamp(3.5rem,7vw,6rem)] leading-[1.0] font-light text-gold-light"
             >
@@ -38,8 +34,8 @@ export default function Hero() {
           </h1>
 
           <p className="text-cream/60 text-lg md:text-xl leading-relaxed max-w-2xl mx-auto mb-12 font-sans font-light">
-            A senior-led Indian law firm with offices in New Delhi and Dubai —
-            built for disputes, investigations, and cross-border matters that
+            A senior-led Indian law firm with offices in New Delhi and Dubai.
+            Built for disputes, investigations, and cross-border matters that
             demand more than routine legal work.
           </p>
 
@@ -67,15 +63,8 @@ export default function Hero() {
       </section>
 
       {/* Video Placeholder */}
-      <section className="bg-dark-secondary py-20 border-t border-gold/10">
+      <section className="bg-dark-secondary py-16 border-t border-gold/10">
         <div className="max-w-8xl mx-auto px-6 lg:px-12">
-          <div className="max-w-3xl mx-auto text-center mb-10">
-            <p className="section-label justify-center mb-6">The Firm</p>
-            <h2 className="font-serif text-display-sm text-cream font-light">
-              A brief introduction
-            </h2>
-          </div>
-
           {/* Video frame — replace src with actual video when ready */}
           <div className="relative max-w-3xl mx-auto rounded-xl overflow-hidden border border-gold/15 bg-dark aspect-video flex items-center justify-center group">
             {/* Uncomment and add src to activate the video:

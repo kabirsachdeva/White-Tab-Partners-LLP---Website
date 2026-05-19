@@ -8,9 +8,10 @@ export default function FirmOverview() {
               Firm Overview
             </p>
             <blockquote className="font-serif text-[clamp(1.5rem,3vw,2.2rem)] text-dark leading-[1.3] font-light">
-              &ldquo;When you instruct us, you get a partner in the first meeting,
-              a partner drafting strategy, and a partner in court. That&rsquo;s not
-              a promise, it&rsquo;s how we&rsquo;re structured.&rdquo;
+              &ldquo;We named this firm after the white tab because it represents
+              something specific: that when a lawyer stands before a court, their
+              word must be reliable. That standard governs every instruction we
+              take.&rdquo;
             </blockquote>
           </div>
 
@@ -29,10 +30,10 @@ export default function FirmOverview() {
               transactions.
             </p>
             <p>
-              We work closely with our in-house Chartered Accountants, Company
-              Secretaries, and forensic professionals where a matter demands it,
-              bringing stronger factual and commercial depth to disputes,
-              investigations, and recovery work.
+              We work with associated Chartered Accountants, Company Secretaries,
+              and forensic professionals where a matter demands it, bringing
+              stronger factual and commercial depth to disputes, investigations,
+              and recovery work.
             </p>
           </div>
         </div>
