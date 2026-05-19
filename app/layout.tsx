@@ -20,7 +20,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "White Tab Partners LLP — Advocates, Solicitors & Legal Consultants",
+    default: "White Tab Partners LLP | Advocates, Solicitors & Legal Consultants",
     template: "%s | White Tab Partners LLP",
   },
   description:

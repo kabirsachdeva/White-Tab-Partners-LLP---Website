@@ -7,7 +7,7 @@ import PartnerImage from "@/components/ui/PartnerImage";
 export const metadata: Metadata = {
   title: "Partners",
   description:
-    "Meet the partners of White Tab Partners LLP — senior advocates and legal consultants with proven courtroom authority and cross-border expertise.",
+    "Meet the partners of White Tab Partners LLP, senior advocates and legal consultants with proven courtroom authority and cross-border expertise.",
 };
 
 export default function PartnersPage() {
@@ -24,7 +24,7 @@ export default function PartnersPage() {
           </h1>
           <p className="text-cream/55 text-lg leading-relaxed max-w-xl font-sans">
             Our partners work with clients from the first consultation through
-            the final resolution — no delegation, no handoffs.
+            the final resolution. No delegation, no handoffs.
           </p>
         </div>
       </section>

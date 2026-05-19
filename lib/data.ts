@@ -7,7 +7,7 @@ export const firmData = {
   description: "A boutique full-service law firm with offices in New Delhi and Dubai.",
   formerly: "formerly Verbis Legal LLP",
   heroDescription:
-    "A senior-led Indian law firm with offices in New Delhi and Dubai — built for disputes, investigations, and cross-border matters that demand more than routine legal work.",
+    "A senior-led Indian law firm with offices in New Delhi and Dubai, built for disputes, investigations, and cross-border matters that demand more than routine legal work.",
   email: "info@whitetabpartners.com",
   phone: "011-41326301",
   phones: ["011-41326301", "+91-81818-11881", "+91-87430-09300"],
@@ -38,8 +38,8 @@ export const brandStory = {
   heading: "The White Tab",
   subheading: "A symbol worn. A standard upheld.",
   body: [
-    "Every advocate who appears before a court wears the white tab — two strips of white fabric at the collar, worn close to the throat. It is one of the oldest symbols in the profession, unchanged across centuries and jurisdictions.",
-    "For us, the white tab is not ceremonial. It is a statement about how we practise. It represents the discipline of preparation, the clarity of argument, and the integrity that no brief can compromise. A lawyer who wears the tab in court is accountable — to the client, to the court, and to the law itself.",
+    "Every advocate who appears before a court wears the white tab: two strips of white fabric at the collar, worn close to the throat. It is one of the oldest symbols in the profession, unchanged across centuries and jurisdictions.",
+    "For us, the white tab is not ceremonial. It is a statement about how we practise. It represents the discipline of preparation, the clarity of argument, and the integrity that no brief can compromise. A lawyer who wears the tab in court is accountable to the client, to the court, and to the law itself.",
     "We named our firm after it deliberately. White Tab Partners is built on the belief that the best legal work is done when craft, clarity, and commitment are treated not as aspirations, but as standards. That is the firm we are. That is the firm we intend to remain.",
   ],
   taglineBreakdown: [
@@ -56,7 +56,7 @@ export const brandStory = {
     {
       word: "Commitment",
       meaning:
-        "A partner — not an associate — works your matter from the first consultation through the final resolution. Every time.",
+        "A partner, not an associate, works your matter from the first consultation through the final resolution. Every time.",
     },
   ],
 };
@@ -79,7 +79,7 @@ export const practiceAreasList = [
   "Civil & Criminal Litigation",
   "White Collar Crimes",
   "Corporate & Commercial",
-  "NCLT / NCLAT — Insolvency & Oppression",
+  "NCLT / NCLAT: Insolvency & Oppression",
   "Immigration & Global Mobility",
   "Recovery of Dues",
   "Forensics Advisory & Due Diligence",

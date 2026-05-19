@@ -79,14 +79,14 @@ export default function PracticeAreasPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
               {group.areas.map((area) => (
                 <div key={area.name} className="group">
-                  <h3 className="font-serif text-lg text-dark font-medium mb-4 flex items-center gap-2">
-                    <span className="w-4 h-px bg-gold/60 flex-shrink-0" />
+                  <h3 className="font-serif text-lg text-dark font-medium mb-4 flex items-center gap-3">
+                    <span className="text-gold/60 text-xs flex-shrink-0">◆</span>
                     {area.name}
                   </h3>
                   <ul className="space-y-2.5">
                     {area.items.map((item) => (
                       <li key={item} className="flex items-start gap-2.5">
-                        <span className="w-1.5 h-1.5 rounded-full bg-gold/40 mt-1.5 flex-shrink-0" />
+                        <span className="text-gold/40 text-[8px] flex-shrink-0 mt-1">◆</span>
                         <span className="text-dark/60 text-sm font-sans leading-relaxed">
                           {item}
                         </span>

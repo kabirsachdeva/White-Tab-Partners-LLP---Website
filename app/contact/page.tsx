@@ -95,7 +95,7 @@ export default function ContactPage() {
               <div className="border border-gold/20 rounded-xl p-6">
                 <p className="text-dark/60 text-sm font-sans leading-relaxed">
                   All consultations are confidential. Our partners handle every
-                  enquiry personally — you will not be passed to a junior
+                  enquiry personally. You will not be passed to a junior
                   associate or a paralegal.
                 </p>
               </div>

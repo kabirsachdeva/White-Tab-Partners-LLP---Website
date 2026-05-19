@@ -48,14 +48,14 @@ export default function InternationalDeskPage() {
                 </p>
                 <p>
                   Because we are a boutique practice, every international matter
-                  is handled directly by a senior partner — not delegated to
+                  is handled directly by a senior partner, not delegated to
                   associates or managed at arm&rsquo;s length. Clients receive
                   focused, personalised attention from the first instruction
                   through execution.
                 </p>
                 <p>
                   We bring the same rigour to cross-border work that we bring to
-                  every matter — with the added advantage of lawyers who understand
+                  every matter, with the added advantage of lawyers who understand
                   multiple systems, cultures, and commercial environments.
                 </p>
               </div>

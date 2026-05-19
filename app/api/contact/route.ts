@@ -26,7 +26,7 @@ export async function POST(req: NextRequest) {
       from: "White Tab Partners Website <noreply@whitetabpartners.com>",
       to: recipientEmail,
       replyTo: email,
-      subject: `New Consultation Request: ${subject || "General Enquiry"} — ${name}`,
+      subject: `New Consultation Request: ${subject || "General Enquiry"} | ${name}`,
       html: `
         <div style="font-family: Georgia, serif; max-width: 600px; margin: 0 auto; color: #1a1a1a;">
           <div style="background: #0C0C10; padding: 32px; border-radius: 8px 8px 0 0;">
