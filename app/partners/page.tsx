@@ -7,7 +7,7 @@ import PartnerImage from "@/components/ui/PartnerImage";
 export const metadata: Metadata = {
   title: "Partners",
   description:
-    "Meet the partners of White Tab Partners LLP — senior advocates and legal consultants with proven courtroom authority and forensic expertise.",
+    "Meet the partners of White Tab Partners LLP — senior advocates and legal consultants with proven courtroom authority and cross-border expertise.",
 };
 
 export default function PartnersPage() {
@@ -58,27 +58,37 @@ export default function PartnersPage() {
                   <p className="text-[10px] tracking-[0.2em] uppercase text-gold font-sans mb-2">
                     {partner.role}
                   </p>
-                  <h2 className="font-serif text-display-sm text-dark font-light mb-3">
+                  <h2 className="font-serif text-display-sm text-dark font-light mb-2">
                     {partner.name}
                   </h2>
+                  {partner.designation && (
+                    <p className="text-gold text-xs font-sans tracking-wide mb-1">
+                      {partner.designation}
+                    </p>
+                  )}
                   <p className="text-dark/40 text-xs font-sans tracking-wide mb-8">
                     {partner.enrollment}
                   </p>
 
-                  <p className="text-dark/70 text-base leading-relaxed font-sans mb-8">
+                  <p className="text-dark/70 text-base leading-relaxed font-sans mb-4">
                     {partner.bio}
                   </p>
+                  {partner.bioExtended && (
+                    <p className="text-dark/60 text-sm leading-relaxed font-sans mb-8">
+                      {partner.bioExtended}
+                    </p>
+                  )}
 
-                  {partner.associations.length > 0 && (
+                  {partner.priorExperience && partner.priorExperience.length > 0 && (
                     <div className="mb-8">
                       <p className="text-[10px] tracking-[0.15em] uppercase text-dark/40 font-sans mb-3">
-                        Professional Associations
+                        Prior Experience
                       </p>
                       <ul className="space-y-1">
-                        {partner.associations.map((assoc) => (
-                          <li key={assoc} className="text-dark/60 text-sm font-sans flex items-center gap-2">
-                            <span className="w-1 h-1 rounded-full bg-gold/60 flex-shrink-0" />
-                            {assoc}
+                        {partner.priorExperience.map((exp) => (
+                          <li key={exp} className="text-dark/60 text-sm font-sans flex items-start gap-2">
+                            <span className="w-1 h-1 rounded-full bg-gold/60 flex-shrink-0 mt-2" />
+                            {exp}
                           </li>
                         ))}
                       </ul>

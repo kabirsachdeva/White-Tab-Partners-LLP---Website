@@ -39,7 +39,7 @@ export default function Navbar() {
             White Tab Partners
           </span>
           <span className="text-[9px] tracking-[0.22em] text-gold/70 uppercase font-sans">
-            Advocates &amp; Legal Consultants
+            Advocates, Solicitors &amp; Legal Consultants
           </span>
         </Link>
 

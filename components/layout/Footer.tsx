@@ -14,7 +14,7 @@ export default function Footer() {
                 White Tab Partners
               </span>
               <span className="text-[9px] tracking-[0.22em] text-gold/70 uppercase font-sans mt-0.5">
-                Advocates &amp; Legal Consultants
+                Advocates, Solicitors &amp; Legal Consultants
               </span>
             </Link>
             <p className="font-serif text-lg text-gold/80 italic mb-3">
@@ -114,7 +114,7 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="border-t border-gold/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-cream/30">
-          <p>© 2025 White Tab Partners LLP. All Rights Reserved.</p>
+          <p>© 2025–2026 White Tab Partners LLP. All Rights Reserved.</p>
           <div className="flex gap-6">
             <Link href="/disclaimer" className="hover:text-cream/60 transition-colors">
               Disclaimer

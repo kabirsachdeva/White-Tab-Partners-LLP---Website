@@ -3,7 +3,9 @@
 export const firmData = {
   name: "White Tab Partners LLP",
   tagline: "Craft. Clarity. Commitment.",
-  description: "A full-service law firm with offices in New Delhi and Dubai.",
+  subtitle: "Advocates, Solicitors & Legal Consultants",
+  description: "A boutique full-service law firm with offices in New Delhi and Dubai.",
+  formerly: "formerly Verbis Legal LLP",
   heroDescription:
     "A senior-led Indian law firm with offices in New Delhi and Dubai — built for disputes, investigations, and cross-border matters that demand more than routine legal work.",
   email: "info@whitetabpartners.com",
@@ -17,6 +19,7 @@ export const firmData = {
 export const offices = [
   {
     city: "New Delhi",
+    label: "Principal Office",
     addresses: [
       "C-30, LGF, Geetanjali Enclave\nNew Delhi – 110 017",
       "T-17, Green Park Main\nNew Delhi – 110 016",
@@ -24,9 +27,39 @@ export const offices = [
   },
   {
     city: "Dubai",
+    label: "International Desk",
     addresses: ["HDS Tower, Cluster F, JLT\nOffice No. 3601, Dubai, UAE"],
   },
 ];
+
+// ─── BRAND STORY ─────────────────────────────────────────────────────────────
+
+export const brandStory = {
+  heading: "The White Tab",
+  subheading: "A symbol worn. A standard upheld.",
+  body: [
+    "Every advocate who appears before a court wears the white tab — two strips of white fabric at the collar, worn close to the throat. It is one of the oldest symbols in the profession, unchanged across centuries and jurisdictions.",
+    "For us, the white tab is not ceremonial. It is a statement about how we practise. It represents the discipline of preparation, the clarity of argument, and the integrity that no brief can compromise. A lawyer who wears the tab in court is accountable — to the client, to the court, and to the law itself.",
+    "We named our firm after it deliberately. White Tab Partners is built on the belief that the best legal work is done when craft, clarity, and commitment are treated not as aspirations, but as standards. That is the firm we are. That is the firm we intend to remain.",
+  ],
+  taglineBreakdown: [
+    {
+      word: "Craft",
+      meaning:
+        "Meticulous preparation, sharp drafting, and the discipline to anticipate every turn in a matter before it arrives.",
+    },
+    {
+      word: "Clarity",
+      meaning:
+        "Advice that is direct and complete. No hedging, no unnecessary complexity. Clients deserve to understand exactly where they stand.",
+    },
+    {
+      word: "Commitment",
+      meaning:
+        "A partner — not an associate — works your matter from the first consultation through the final resolution. Every time.",
+    },
+  ],
+};
 
 // ─── STATS ──────────────────────────────────────────────────────────────────
 
@@ -34,9 +67,26 @@ export const stats = [
   { value: "30+", label: "Years of Combined Experience" },
   { value: "India & UAE", label: "Active Presence" },
   { value: "Pan-India", label: "Client Base" },
-  { value: "12", label: "Practice Areas" },
-  { value: "CA & CS", label: "In-House Financial Professionals" },
-  { value: "₹200 Cr+", label: "Recovered in Litigation & Enforcement" },
+  { value: "CA & CS", label: "Associated Financial Professionals" },
+  { value: "Multi-Forum", label: "Litigation Capability" },
+  { value: "Cross-Border", label: "International Reach" },
+];
+
+// ─── PRACTICE AREAS (flat list, as per firm profile) ─────────────────────────
+
+export const practiceAreasList = [
+  "Arbitration & ADR",
+  "Civil & Criminal Litigation",
+  "White Collar Crimes",
+  "Corporate & Commercial",
+  "NCLT / NCLAT — Insolvency & Oppression",
+  "Immigration & Global Mobility",
+  "Recovery of Dues",
+  "Forensics Advisory & Due Diligence",
+  "Property Law",
+  "Criminal & Bail Matters",
+  "Electricity & Energy Law",
+  "Drafting & Due Diligence",
 ];
 
 // ─── PARTNERS ───────────────────────────────────────────────────────────────
@@ -46,14 +96,17 @@ export const partners = [
     id: "randeep-sachdeva",
     name: "Randeep Sachdeva",
     role: "Managing Partner",
-    enrollment: "2018, Bar Council of Delhi, Supreme Court of India",
+    enrollment: "Bar Council of Delhi · Supreme Court of India",
     email: "randeepsachdeva@whitetabpartners.com",
     image: "/images/randeep-sachdeva.jpg",
-    bio: "Focuses on litigation and advisory work spanning arbitration, commercial disputes, civil matters, white collar issues, and financial fraud. Has collaborated with the Enforcement Directorate and the Additional Solicitor General's office, providing dual-perspective expertise in financial crime. Appeared in significant money laundering and criminal proceedings. Also advises on Dubai Golden Visa applications including alternative pathways.",
-    associations: [
-      "Justice Amit Mahajan",
-      "Mr. Abhimanyu Bhandari (Senior Advocate)",
-      "Mr. Jayant K. Sud (former Additional Solicitor General)",
+    designation: "Senior Panel Counsel, Government of India",
+    bio: "Enrolled with the Bar Council of Delhi, Randeep Sachdeva is a litigation and advisory specialist with deep expertise in arbitration, civil litigation, and financial crime. He serves as Senior Panel Counsel for the Government of India before the Central Administrative Tribunal and the Supreme Court of India, and has previously represented the Union of India in numerous high-stakes matters.",
+    bioExtended:
+      "Randeep has worked closely with the Enforcement Directorate and the Office of the Additional Solicitor General of India, equipping him with a comprehensive understanding of financial crime from both the prosecution and defence perspectives. He has represented leading corporates and has been pivotal in high-profile money laundering and criminal matters. He has also appeared before the larger Constitution Benches of the Supreme Court of India. He advises on Dubai Golden Visa applications, including non-standard eligibility pathways.",
+    priorExperience: [
+      "Worked in chambers of Mr. Amit Mahajan, Delhi High Court",
+      "Worked alongside Mr. Abhimanyu Bhandari, Senior Advocate",
+      "Worked alongside Mr. Jayant K. Sud, former Additional Solicitor General of India",
     ],
     practiceAreas: [
       "Arbitration & ADR",
@@ -61,18 +114,21 @@ export const partners = [
       "Civil Litigation",
       "Commercial Litigation",
       "Cross-Border Disputes",
-      "Dubai Golden Visa",
+      "Global Mobility Advisory",
     ],
   },
   {
     id: "prashant-sodhi",
     name: "Prashant Sodhi",
     role: "Managing Partner",
-    enrollment: "2019, Bar Council of Delhi, Delhi High Court",
+    enrollment: "Bar Council of Delhi · Delhi High Court",
     email: "prashantsodhi@whitetabpartners.com",
     image: "/images/prashant-sodhi.jpg",
-    bio: "Specialises in white collar crime, financial disputes, criminal trials, and civil litigation. Regularly appears before the Delhi High Court and district courts on sensitive matters. Known for meticulous preparation, sharp drafting, and a practical instinct for litigation strategy.",
-    associations: [],
+    designation: "",
+    bio: "A seasoned advocate with a distinguished presence across High Courts and district courts, Prashant Sodhi has built a formidable practice in white-collar crime, high-value financial disputes, and criminal trials. Known for his meticulous preparation, sharp drafting, and a practical instinct for litigation strategy, he brings structured advocacy and a results-oriented approach to sensitive and intricate legal matters.",
+    bioExtended:
+      "Over the course of his practice, Prashant has advised corporations, entrepreneurs, financial institutions, and high-net-worth individuals on a wide spectrum of legal issues including commercial disputes, arbitration, white-collar defence, regulatory matters, and recovery proceedings. He is committed to delivering sophisticated legal solutions with discretion, precision, and a deep commitment to client interests.",
+    priorExperience: [],
     practiceAreas: [
       "White Collar Crime",
       "High-Value Financial Disputes",
@@ -82,31 +138,17 @@ export const partners = [
     ],
   },
   {
-    id: "shivaang-gupta",
-    name: "Shivaang Gupta",
-    role: "Associate Partner",
-    enrollment: "2015, Bar Council of Delhi",
-    email: "shivaanggupta@whitetabpartners.com",
-    image: "/images/shivaang-gupta.jpg",
-    bio: "Litigation specialist with extensive trial court experience in civil and criminal matters. Represents clients in commercial disputes, arbitration, and financial recovery before the Delhi High Court and district courts. Manages SARFAESI Act and Negotiable Instruments Act enforcement proceedings. Has handled Prohibition of Child Marriage Act, Mental Health Act, and Constitutional matters.",
-    associations: [],
-    practiceAreas: [
-      "Civil & Criminal Litigation",
-      "Commercial Disputes",
-      "Arbitration",
-      "Financial Recovery",
-      "Constitutional Matters",
-    ],
-  },
-  {
     id: "tanpreet-kohli",
     name: "Tanpreet Singh Kohli",
     role: "Of Counsel, CA & Advocate",
-    enrollment: "2022, Bar Council of Delhi; ICAI (Chartered Accountant)",
+    enrollment: "Bar Council of Delhi · ICAI (Chartered Accountant)",
     email: "tanpreetkohli@whitetabpartners.com",
     image: "/images/tanpreet-kohli.jpg",
-    bio: "Dual-qualified professional providing integrated legal and financial expertise. Advises on tax matters that intersect legal and accounting analysis, and supports the firm's disputes and forensic financial practice. Represents clients before tax authorities and appellate bodies.",
-    associations: [],
+    designation: "",
+    bio: "Tanpreet Singh Kohli is a dual-qualified Chartered Accountant and Advocate with extensive expertise in tax advisory, international taxation, and statutory compliance. He advises on tax matters that intersect legal and accounting analysis and supports the firm's disputes and forensic financial practice.",
+    bioExtended:
+      "He has successfully represented clients before tax authorities and appellate bodies and is a recognised speaker and author in the tax policy space, continuing to shape discourse through thought leadership and client-focused counsel.",
+    priorExperience: [],
     practiceAreas: [
       "Tax Advisory",
       "International Taxation",
@@ -116,7 +158,7 @@ export const partners = [
   },
 ];
 
-// ─── PRACTICE AREAS ─────────────────────────────────────────────────────────
+// ─── PRACTICE AREA GROUPS (detailed pages) ───────────────────────────────────
 
 export const practiceAreaGroups = [
   {
@@ -242,7 +284,7 @@ export const practiceAreaGroups = [
           "Claims before resolution professionals",
           "Committee of creditors advisory",
           "Resolution plan and restructuring support",
-          "Appellate proceedings",
+          "Appellate proceedings before NCLAT",
         ],
       },
       {
@@ -277,7 +319,7 @@ export const practiceAreaGroups = [
           "Claims, defences, and procedural applications",
           "Section 9, 11, 34, and 37 proceedings",
           "Award enforcement and challenge",
-          "Drafting and review of arbitration clauses",
+          "Representation before SIAC, DIFC, and international tribunals",
         ],
       },
       {
@@ -365,16 +407,6 @@ export const practiceAreaGroups = [
           "Cross-border enforcement and recovery",
         ],
       },
-      {
-        name: "International Desk Support",
-        items: [
-          "India-UAE transaction and dispute coordination",
-          "Cross-border commercial advisory",
-          "International structuring support",
-          "Residency and mobility-linked legal advisory",
-          "Coordination with overseas advisers",
-        ],
-      },
     ],
   },
 ];
@@ -385,21 +417,21 @@ export const differentiators = [
   {
     number: "01",
     title: "Proven Courtroom Authority",
-    body: "Our partners have appeared before the Supreme Court of India, including Constitution Bench matters, the Delhi High Court, and specialist tribunals across India. We have also recovered over ₹200 crores for clients in civil litigation and enforcement matters.",
+    body: "Our partners have appeared before the Supreme Court of India, including Constitution Bench matters, the Delhi High Court, and specialist tribunals across India. Our firm has a strong track record in civil litigation, enforcement, and recovery proceedings across jurisdictions.",
   },
   {
     number: "02",
-    title: "Forensic & Financial Integration",
-    body: "Our advocates work alongside in-house Chartered Accountants and Company Secretaries — not on referral, but as part of the same team. This gives clients coordinated advice across litigation strategy, financial analysis, compliance, and forensic review in a single instruction.",
+    title: "Forensic and Financial Integration",
+    body: "Our advocates work alongside associated Chartered Accountants and Company Secretaries, not on referral, but as part of a coordinated team. This gives clients integrated advice across litigation strategy, financial analysis, compliance, and forensic review in a single instruction.",
   },
   {
     number: "03",
     title: "Cross-Border Capability",
-    body: "With an office in Dubai and international working relationships in multiple jurisdictions, we advise on cross-border matters including DIFC proceedings, global mobility issues, and enforcement of foreign awards in India.",
+    body: "With an office in Dubai and working relationships across multiple jurisdictions including the UAE, Singapore, Croatia, and beyond, we advise on cross-border matters including DIFC proceedings, global mobility, and enforcement of foreign awards in India.",
   },
   {
     number: "04",
-    title: "White Collar & Enforcement Expertise",
+    title: "White Collar and Enforcement Expertise",
     body: "With direct prior experience at the Enforcement Directorate and the Office of the Additional Solicitor General of India, we offer defence and advisory in financial crime matters with an authority that comes only from having worked both sides of the enforcement process.",
   },
 ];
@@ -426,34 +458,34 @@ export const sectors = [
 
 export const internationalServices = [
   {
-    title: "Dubai Golden Visa",
+    title: "Global Mobility and Global Asset Positioning Advisory",
     description:
-      "Advisory on standard and non-standard Dubai Golden Visa applications, including alternative eligibility pathways for entrepreneurs, investors, and professionals.",
+      "Advisory on the Dubai Golden Visa, including standard and non-standard eligibility pathways for entrepreneurs, investors, and professionals. We also advise on Croatian residency, Brazilian passport (EU visa-free access), and other global mobility and asset positioning solutions through an exclusive network of international partners.",
   },
   {
     title: "Cross-Border Dispute Resolution",
     description:
-      "Representation and strategy in DIFC arbitration and international dispute forums, with seamless coordination between our New Delhi and Dubai offices.",
+      "Representation and strategy in DIFC arbitration, SIAC proceedings, and international tribunals including in Croatia. Seamless coordination between our New Delhi and Dubai offices ensures continuity across jurisdictions.",
   },
   {
     title: "Enforcement of Orders Abroad",
     description:
-      "Enforcement strategy for Indian court orders and arbitral awards abroad, with coordinated recovery proceedings across jurisdictions.",
+      "Enforcement strategy for Indian court orders and arbitral awards across the UAE, Singapore, and other jurisdictions. We coordinate multi-forum recovery proceedings with trusted international correspondents.",
   },
   {
     title: "Financial Fraud Audits",
     description:
-      "In-house Chartered Accountants conducting financial fraud investigations and forensic audits for cross-border matters involving India and the UAE.",
+      "Associated Chartered Accountants conducting financial fraud investigations and forensic audits for cross-border matters involving India, the UAE, and international counterparties.",
   },
   {
     title: "International Corporate Structuring",
     description:
-      "Advisory on India-UAE entity structuring, cross-border transactions, and governance frameworks for businesses operating across both markets.",
+      "Advisory on India-UAE entity structuring, cross-border transactions, and governance frameworks for businesses operating across both markets and beyond.",
   },
   {
-    title: "Global Mobility Solutions",
+    title: "Immigration and Residency Advisory",
     description:
-      "Second passport and residency advisory for high-net-worth individuals, including Tier-1 investor visas and global mobility strategy.",
+      "Comprehensive immigration consultancy including Dubai Golden Visa, Croatian residency programmes, Brazilian citizenship advisory, and other global relocation solutions for high-net-worth individuals and their families.",
   },
 ];
 

@@ -5,7 +5,7 @@ import { internationalServices } from "@/lib/data";
 export const metadata: Metadata = {
   title: "International Desk",
   description:
-    "Cross-border legal support from our office at Jumeirah Lake Towers, Dubai. India-UAE transactions, disputes, Golden Visa, and global mobility.",
+    "Cross-border legal support from our office at Jumeirah Lake Towers, Dubai. India-UAE matters, global mobility advisory, and international dispute resolution.",
 };
 
 export default function InternationalDeskPage() {
@@ -24,7 +24,7 @@ export default function InternationalDeskPage() {
               From Jumeirah Lake Towers, Dubai.
             </h2>
             <p className="text-cream/55 text-lg leading-relaxed font-sans mb-4">
-              Practical support. Across jurisdictions.
+              Boutique. Senior-led. Across jurisdictions.
             </p>
           </div>
         </div>
@@ -40,16 +40,23 @@ export default function InternationalDeskPage() {
               </p>
               <div className="space-y-5 text-dark/70 text-base leading-relaxed font-sans">
                 <p>
-                  Our Dubai office at HDS Tower, Jumeirah Lake Towers handles
-                  matters involving India, the UAE, and other regions. We
-                  collaborate with legal correspondents across multiple
-                  jurisdictions and have coordinated enforcement proceedings
-                  spanning India, UAE, and Singapore.
+                  White Tab Partners is a boutique law firm. Our Dubai office at
+                  HDS Tower, Jumeirah Lake Towers, handles matters involving
+                  India, the UAE, and other regions. We collaborate with legal
+                  correspondents across multiple jurisdictions and have coordinated
+                  proceedings spanning India, the UAE, Singapore, and Croatia.
                 </p>
                 <p>
-                  Every international matter is handled with the same rigour we
-                  bring to every matter — with the added advantage of lawyers who
-                  understand both systems, both cultures, and both markets.
+                  Because we are a boutique practice, every international matter
+                  is handled directly by a senior partner — not delegated to
+                  associates or managed at arm&rsquo;s length. Clients receive
+                  focused, personalised attention from the first instruction
+                  through execution.
+                </p>
+                <p>
+                  We bring the same rigour to cross-border work that we bring to
+                  every matter — with the added advantage of lawyers who understand
+                  multiple systems, cultures, and commercial environments.
                 </p>
               </div>
             </div>
@@ -72,7 +79,15 @@ export default function InternationalDeskPage() {
                     Jurisdictions Covered
                   </p>
                   <p className="text-cream/80 text-sm font-sans">
-                    India · UAE · Singapore · Multiple International
+                    India · UAE · Singapore · Croatia · Multiple International
+                  </p>
+                </div>
+                <div className="border-t border-gold/10 pt-4">
+                  <p className="text-[10px] tracking-[0.15em] uppercase text-cream/40 font-sans mb-1">
+                    Practice Style
+                  </p>
+                  <p className="text-cream/80 text-sm font-sans">
+                    Boutique · Partner-led · Senior oversight on every matter
                   </p>
                 </div>
               </div>
@@ -84,7 +99,11 @@ export default function InternationalDeskPage() {
       {/* Services */}
       <section className="bg-dark py-24">
         <div className="max-w-8xl mx-auto px-6 lg:px-12">
-          <p className="section-label mb-12">Services from Dubai</p>
+          <p className="section-label mb-4">Services from Dubai</p>
+          <p className="text-cream/50 text-sm font-sans mb-12 max-w-xl">
+            All services are delivered directly by a senior partner. We do not
+            hand off international instructions to juniors.
+          </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {internationalServices.map((svc) => (
               <div

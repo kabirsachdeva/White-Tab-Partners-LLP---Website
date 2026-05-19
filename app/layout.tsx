@@ -20,20 +20,11 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "White Tab Partners LLP – Advocates & Legal Consultants | New Delhi & Dubai",
+    default: "White Tab Partners LLP — Advocates, Solicitors & Legal Consultants",
     template: "%s | White Tab Partners LLP",
   },
   description:
-    "A senior-led Indian law firm with offices in New Delhi and Dubai — built for disputes, investigations, and cross-border matters that demand more than routine legal work.",
-  keywords: [
-    "law firm India",
-    "advocates New Delhi",
-    "litigation lawyers Dubai",
-    "white collar crime lawyers",
-    "arbitration India",
-    "cross-border legal",
-    "White Tab Partners",
-  ],
+    "White Tab Partners LLP is a law firm with offices in New Delhi and Dubai, practising in litigation, arbitration, corporate advisory, and cross-border matters.",
   metadataBase: new URL("https://whitetabpartners.com"),
   openGraph: {
     type: "website",
