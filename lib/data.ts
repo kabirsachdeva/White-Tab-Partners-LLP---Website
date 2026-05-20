@@ -12,7 +12,7 @@ export const firmData = {
   phone: "011-41326301",
   phones: ["011-41326301", "+91-81818-11881", "+91-87430-09300"],
   whatsapp: "https://wa.me/918181811881",
-  linkedin: "https://linkedin.com/company/whitetabpartners",
+  linkedin: "https://www.linkedin.com/company/whitetabpartnersllp/",
   careerEmail: "career@whitetabpartners.com",
 };
 
