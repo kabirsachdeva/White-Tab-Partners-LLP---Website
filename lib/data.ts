@@ -21,7 +21,6 @@ export const offices = [
     city: "New Delhi",
     label: "Principal Office",
     addresses: [
-      "C-30, LGF, Geetanjali Enclave\nNew Delhi – 110 017",
       "T-17, Green Park Main\nNew Delhi – 110 016",
     ],
   },
