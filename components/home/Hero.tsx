@@ -65,9 +65,8 @@ export default function Hero() {
       {/* Video Placeholder */}
       <section className="bg-dark-secondary py-16 border-t border-gold/10">
         <div className="max-w-8xl mx-auto px-6 lg:px-12">
-          {/* Video frame — replace src with actual video when ready */}
-          <div className="relative max-w-3xl mx-auto rounded-xl overflow-hidden border border-gold/15 bg-dark aspect-video flex items-center justify-center group">
-            {/* Uncomment and add src to activate the video:
+          {/* Firm intro video */}
+          <div className="relative max-w-3xl mx-auto rounded-xl overflow-hidden border border-gold/15 bg-dark aspect-video">
             <video
               src="/videos/firm-intro.mp4"
               autoPlay
@@ -76,18 +75,6 @@ export default function Hero() {
               playsInline
               className="w-full h-full object-cover"
             />
-            */}
-
-            {/* Placeholder shown until video is added */}
-            <div className="absolute inset-0 bg-[radial-gradient(ellipse_70%_50%_at_50%_50%,rgba(139,105,20,0.08),transparent)]" />
-            <div className="relative z-10 flex flex-col items-center gap-4 text-cream/40">
-              <div className="w-16 h-16 rounded-full border border-gold/30 flex items-center justify-center group-hover:border-gold/60 transition-colors">
-                <div className="w-0 h-0 border-t-[8px] border-t-transparent border-l-[14px] border-l-gold/50 border-b-[8px] border-b-transparent ml-1 group-hover:border-l-gold transition-colors" />
-              </div>
-              <span className="text-[10px] tracking-[0.25em] uppercase font-sans text-gold/40">
-                Video coming soon
-              </span>
-            </div>
           </div>
         </div>
       </section>
