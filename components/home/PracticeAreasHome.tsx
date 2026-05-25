@@ -11,7 +11,7 @@ export default function PracticeAreasHome() {
               Practice Areas
             </p>
             <h2 className="font-serif text-display-md text-dark font-light leading-snug">
-              Full-spectrum legal and
+              Full<span className="font-sans">-</span>spectrum legal and
               <br />
               advisory representation.
             </h2>

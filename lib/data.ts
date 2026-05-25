@@ -37,9 +37,8 @@ export const brandStory = {
   heading: "The White Tab",
   subheading: "A symbol worn. A standard upheld.",
   body: [
-    "Every advocate who appears before a court wears the white tab: two strips of white fabric at the collar, worn close to the throat. It is one of the oldest symbols in the profession, unchanged across centuries and jurisdictions.",
-    "For us, the white tab is not ceremonial. It is a statement about how we practise. It represents the discipline of preparation, the clarity of argument, and the integrity that no brief can compromise. A lawyer who wears the tab in court is accountable to the client, to the court, and to the law itself.",
-    "We named our firm after it deliberately. White Tab Partners is built on the belief that the best legal work is done when craft, clarity, and commitment are treated not as aspirations, but as standards. That is the firm we are. That is the firm we intend to remain.",
+    "The white tab finds its origin in the Tablets of Moses, a timeless symbol of integrity, moral conviction, and the foundations of law. We chose it as our name because it captures what we believe lawyering should stand for: trust earned through principle, and counsel given with clarity.",
+    "At White Tab Partners, every client matter is approached with the same conviction. Your interests are protected with diligence, your confidence honoured without exception. With us, you do not just retain a firm. You gain a partner you can rely on, a White Tab Partner.",
   ],
   taglineBreakdown: [
     {
@@ -95,13 +94,13 @@ export const partners = [
     id: "randeep-sachdeva",
     name: "Randeep Sachdeva",
     role: "Managing Partner",
-    enrollment: "Bar Council of Delhi · Supreme Court of India",
+    enrollment: "Bar Council of Delhi · Hon'ble High Court of Delhi · Supreme Court of India · NCLT / NCLAT",
     email: "randeepsachdeva@whitetabpartners.com",
     image: "/images/randeep-sachdeva.jpg",
     designation: "Senior Panel Counsel, Government of India",
-    bio: "Enrolled with the Bar Council of Delhi, Randeep Sachdeva is a litigation and advisory specialist with deep expertise in arbitration, civil litigation, and financial crime. He serves as Senior Panel Counsel for the Government of India before the Central Administrative Tribunal and the Supreme Court of India, and has previously represented the Union of India in numerous high-stakes matters.",
+    bio: "Randeep Sachdeva is a Managing Partner at White Tab Partners LLP and one of the architects of the firm's litigation and advisory practice. Enrolled with the Bar Council of Delhi, he brings deep expertise across arbitration, civil litigation, and financial crime, having served as Senior Panel Counsel for the Government of India before the Hon'ble Central Administrative Tribunal and the Supreme Court of India. His earlier work with the Enforcement Directorate and the Office of the Additional Solicitor General of India has given him a rare vantage point, an understanding of complex financial litigation from both the prosecution and the defence.",
     bioExtended:
-      "Randeep has worked closely with the Enforcement Directorate and the Office of the Additional Solicitor General of India, equipping him with a comprehensive understanding of financial crime from both the prosecution and defence perspectives. He has represented leading corporates and has been pivotal in high-profile money laundering and criminal matters. He has also appeared before the larger Constitution Benches of the Supreme Court of India. He advises on Dubai Golden Visa applications, including non-standard eligibility pathways.",
+      "Randeep has represented leading corporates, advised on high-profile money laundering and criminal matters, and appeared before the 7-Judge and 9-Judge Constitution Benches of the Supreme Court. Clients turn to him for clear thinking under pressure, strategic precision, and a steady, considered hand in matters that demand both.",
     priorExperience: [
       "Worked in chambers of Mr. Amit Mahajan, Delhi High Court",
       "Worked alongside Mr. Abhimanyu Bhandari, Senior Advocate",
@@ -109,31 +108,27 @@ export const partners = [
     ],
     practiceAreas: [
       "Arbitration & ADR",
-      "White Collar Crime & PMLA",
-      "Civil Litigation",
-      "Commercial Litigation",
-      "Cross-Border Disputes",
-      "Global Mobility Advisory",
+      "White Collar Crime",
+      "Civil & Commercial Litigation",
+      "Company Law",
     ],
   },
   {
     id: "prashant-sodhi",
     name: "Prashant Sodhi",
     role: "Managing Partner",
-    enrollment: "Bar Council of Delhi · Delhi High Court",
+    enrollment: "Bar Council of Delhi · Hon'ble High Court of Delhi · NCLT / NCLAT",
     email: "prashantsodhi@whitetabpartners.com",
     image: "/images/prashant-sodhi.jpg",
     designation: "",
-    bio: "A seasoned advocate with a distinguished presence across High Courts and district courts, Prashant Sodhi has built a formidable practice in white-collar crime, high-value financial disputes, and criminal trials. Known for his meticulous preparation, sharp drafting, and a practical instinct for litigation strategy, he brings structured advocacy and a results-oriented approach to sensitive and intricate legal matters.",
+    bio: "Prashant Sodhi is a Managing Partner at White Tab Partners LLP and one of the driving forces behind the firm's disputes and criminal defence practice. A seasoned advocate with a distinguished presence across the High Courts and District Courts, he has built a formidable reputation in white-collar crime, criminal trials, and high-value financial disputes. His practice is defined by meticulous strategic thinking, structured drafting, and sharp courtroom advocacy, qualities that have made him a trusted counsel in some of the most sensitive and intricate matters to come before the firm.",
     bioExtended:
-      "Over the course of his practice, Prashant has advised corporations, entrepreneurs, financial institutions, and high-net-worth individuals on a wide spectrum of legal issues including commercial disputes, arbitration, white-collar defence, regulatory matters, and recovery proceedings. He is committed to delivering sophisticated legal solutions with discretion, precision, and a deep commitment to client interests.",
+      "Prashant has advised corporations, entrepreneurs, financial institutions, and high-net-worth individuals across commercial disputes, arbitration, white-collar defence, regulatory matters, and recovery proceedings. Clients value him for his command over procedural law, his grasp of the commercial realities that underpin modern disputes, and his ability to deliver sophisticated legal solutions with discretion, precision, and an unwavering commitment to their interests.",
     priorExperience: [],
     practiceAreas: [
-      "White Collar Crime",
-      "High-Value Financial Disputes",
       "Criminal Trials",
-      "Civil Litigation",
-      "Drafting & Strategy",
+      "High Value Financial Disputes",
+      "Civil & Commercial Litigation",
     ],
   },
   {
@@ -149,10 +144,12 @@ export const partners = [
       "He has successfully represented clients before tax authorities and appellate bodies and is a recognised speaker and author in the tax policy space, continuing to shape discourse through thought leadership and client-focused counsel.",
     priorExperience: [],
     practiceAreas: [
+      "Company Law",
+      "Transfer Pricing",
       "Tax Advisory",
+      "Crypto Advisories",
       "International Taxation",
-      "Statutory Compliance",
-      "Tax Litigation",
+      "Statutory Compliances",
     ],
   },
 ];
