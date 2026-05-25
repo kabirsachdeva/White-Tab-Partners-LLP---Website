@@ -17,7 +17,7 @@ export default function PracticeAreasPage() {
         <div className="max-w-8xl mx-auto px-6 lg:px-12 relative">
           <p className="section-label mb-8">Practice Areas</p>
           <h1 className="font-serif text-display-lg text-cream font-light max-w-3xl leading-tight mb-6">
-            Full<span className="font-sans">-</span>spectrum legal and advisory
+            Full<span style={{ fontFamily: "Inter, sans-serif" }}>-</span>spectrum legal and advisory
             <span className="text-gold-light"> representation.</span>
           </h1>
           <p className="text-cream/55 text-lg leading-relaxed max-w-2xl font-sans">

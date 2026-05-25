@@ -91,29 +91,6 @@ export const practiceAreasList = [
 
 export const partners = [
   {
-    id: "randeep-sachdeva",
-    name: "Randeep Sachdeva",
-    role: "Managing Partner",
-    enrollment: "Bar Council of Delhi · Hon'ble High Court of Delhi · Supreme Court of India · NCLT / NCLAT",
-    email: "randeepsachdeva@whitetabpartners.com",
-    image: "/images/randeep-sachdeva.jpg",
-    designation: "Senior Panel Counsel, Government of India",
-    bio: "Randeep Sachdeva is a Managing Partner at White Tab Partners LLP and one of the architects of the firm's litigation and advisory practice. Enrolled with the Bar Council of Delhi, he brings deep expertise across arbitration, civil litigation, and financial crime, having served as Senior Panel Counsel for the Government of India before the Hon'ble Central Administrative Tribunal and the Supreme Court of India. His earlier work with the Enforcement Directorate and the Office of the Additional Solicitor General of India has given him a rare vantage point, an understanding of complex financial litigation from both the prosecution and the defence.",
-    bioExtended:
-      "Randeep has represented leading corporates, advised on high-profile money laundering and criminal matters, and appeared before the 7-Judge and 9-Judge Constitution Benches of the Supreme Court. Clients turn to him for clear thinking under pressure, strategic precision, and a steady, considered hand in matters that demand both.",
-    priorExperience: [
-      "Worked in chambers of Mr. Amit Mahajan, Delhi High Court",
-      "Worked alongside Mr. Abhimanyu Bhandari, Senior Advocate",
-      "Worked alongside Mr. Jayant K. Sud, former Additional Solicitor General of India",
-    ],
-    practiceAreas: [
-      "Arbitration & ADR",
-      "White Collar Crime",
-      "Civil & Commercial Litigation",
-      "Company Law",
-    ],
-  },
-  {
     id: "prashant-sodhi",
     name: "Prashant Sodhi",
     role: "Managing Partner",
@@ -129,6 +106,29 @@ export const partners = [
       "Criminal Trials",
       "High Value Financial Disputes",
       "Civil & Commercial Litigation",
+    ],
+  },
+  {
+    id: "randeep-sachdeva",
+    name: "Randeep Sachdeva",
+    role: "Managing Partner",
+    enrollment: "Bar Council of Delhi · Hon'ble High Court of Delhi · Hon'ble Supreme Court of India · NCLT / NCLAT",
+    email: "randeepsachdeva@whitetabpartners.com",
+    image: "/images/randeep-sachdeva.jpg",
+    designation: "Senior Panel Counsel, Government of India",
+    bio: "Randeep Sachdeva is a Managing Partner at White Tab Partners LLP and one of the architects of the firm's litigation and advisory practice. Enrolled with the Bar Council of Delhi, he brings deep expertise across arbitration, civil litigation, and financial crime, having served as Senior Panel Counsel for the Government of India before the Hon'ble Central Administrative Tribunal and the Hon'ble Supreme Court of India. His earlier work with the Enforcement Directorate and the Office of the Additional Solicitor General of India has given him a rare vantage point, an understanding of complex financial litigation from both the prosecution and the defence.",
+    bioExtended:
+      "Randeep has represented leading corporates, advised on high-profile money laundering and criminal matters, and appeared before the 7-Judge and 9-Judge Constitution Benches of the Supreme Court. Clients turn to him for clear thinking under pressure, strategic precision, and a steady, considered hand in matters that demand both.",
+    priorExperience: [
+      "Worked in chambers of Mr. Amit Mahajan, Delhi High Court",
+      "Worked alongside Mr. Abhimanyu Bhandari, Senior Advocate",
+      "Worked alongside Mr. Jayant K. Sud, former Additional Solicitor General of India",
+    ],
+    practiceAreas: [
+      "Arbitration & ADR",
+      "White Collar Crime",
+      "Civil & Commercial Litigation",
+      "Company Law",
     ],
   },
   {

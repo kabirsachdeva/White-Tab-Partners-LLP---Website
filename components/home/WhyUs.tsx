@@ -7,7 +7,7 @@ const pillars = [
   {
     tag: "Forensics",
     title: "Legal, financial, and forensic thinking in one room.",
-    body: "Our advocates work alongside in-house Chartered Accountants and Company Secretaries, not on referral, but as part of the same team. Coordinated advice across disputes, compliance, and financial analysis in a single instruction.",
+    body: "Our advocates work alongside associated Chartered Accountants and Company Secretaries, not on referral, but as part of the same team. Coordinated advice across disputes, compliance, and financial analysis in a single instruction.",
   },
   {
     tag: "Cross-Border",
@@ -15,6 +15,16 @@ const pillars = [
     body: "We structure, defend, and coordinate matters that move between India, Dubai, and other strategic jurisdictions.",
   },
 ];
+
+function fixHyphen(text: string) {
+  return text.split(/(-)/).map((part, i) =>
+    part === "-" ? (
+      <span key={i} style={{ fontFamily: "Inter, sans-serif" }}>-</span>
+    ) : (
+      part
+    )
+  );
+}
 
 export default function WhyUs() {
   return (
@@ -44,7 +54,7 @@ export default function WhyUs() {
                 {p.tag}
               </span>
               <h3 className="font-serif text-xl text-cream font-light leading-snug mb-4">
-                {p.title}
+                {fixHyphen(p.title)}
               </h3>
               <p className="text-cream/50 text-sm leading-relaxed font-sans">
                 {p.body}

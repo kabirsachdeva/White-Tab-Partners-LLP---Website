@@ -18,7 +18,7 @@ export default function InternationalDeskPage() {
           <div className="max-w-3xl">
             <p className="section-label mb-8">International Desk</p>
             <h1 className="font-serif text-display-lg text-cream font-light leading-tight mb-4">
-              Cross-border legal support.
+              Cross<span style={{ fontFamily: "Inter, sans-serif" }}>-</span>border legal support.
             </h1>
             <h2 className="font-serif text-display-sm text-gold-light font-light mb-8">
               From Jumeirah Lake Towers, Dubai.

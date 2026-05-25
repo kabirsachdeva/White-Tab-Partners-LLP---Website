@@ -189,7 +189,7 @@ export default function AboutPage() {
       <section className="bg-dark-secondary py-16 border-t border-gold/10">
         <div className="max-w-8xl mx-auto px-6 lg:px-12 text-center">
           <h2 className="font-serif text-display-sm text-cream font-light mb-4">
-            Ready to work with a partner-led firm?
+            Ready to work with a partner<span style={{ fontFamily: "Inter, sans-serif" }}>-</span>led firm?
           </h2>
           <p className="text-cream/50 mb-8 font-sans">
             Our partners work directly with clients from first consultation through final resolution.

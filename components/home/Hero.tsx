@@ -62,22 +62,17 @@ export default function Hero() {
         </div>
       </section>
 
-      {/* Video Placeholder */}
-      <section className="bg-dark-secondary py-16 border-t border-gold/10">
-        <div className="max-w-8xl mx-auto px-6 lg:px-12">
-          {/* Firm intro video */}
-          <div className="relative max-w-3xl mx-auto rounded-xl overflow-hidden border border-gold/15 bg-dark aspect-video">
-            <video
-              src="/videos/firm-intro.mp4"
-              autoPlay
-              muted
-              loop
-              playsInline
-              className="w-full h-full object-cover"
-            />
-          </div>
-        </div>
-      </section>
+      {/* Brand Film — full-width banner */}
+      <div className="w-full bg-dark overflow-hidden">
+        <video
+          src="/videos/firm-intro.mp4"
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="w-full h-auto block"
+        />
+      </div>
     </>
   );
 }
