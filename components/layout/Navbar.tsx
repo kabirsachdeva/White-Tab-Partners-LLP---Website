@@ -1,7 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { navLinks } from "@/lib/data";
 import { Menu, X } from "lucide-react";
@@ -33,24 +32,15 @@ export default function Navbar() {
     >
       <nav className="max-w-8xl mx-auto px-6 lg:px-12 h-16 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-3 group">
-          <Image
-            src="/images/logo-mark.png"
-            alt="White Tab Partners"
-            width={32}
-            height={44}
-            className="h-11 w-auto object-contain"
-            style={{ filter: "brightness(0) invert(1)" }}
-            priority
-          />
-          <div className="flex flex-col">
-            <span className="font-serif text-xl font-medium tracking-[0.12em] text-cream uppercase leading-tight group-hover:text-gold-pale transition-colors">
-              White Tab Partners
-            </span>
-            <span className="text-[9px] tracking-[0.22em] text-gold/70 uppercase font-sans">
-              Advocates, Solicitors &amp; Legal Consultants
-            </span>
-          </div>
+        <Link href="/" className="flex flex-col group">
+          <span
+            className="font-serif text-xl font-medium tracking-[0.12em] text-cream uppercase leading-tight group-hover:text-gold-pale transition-colors"
+          >
+            White Tab Partners
+          </span>
+          <span className="text-[9px] tracking-[0.22em] text-gold/70 uppercase font-sans">
+            Advocates, Solicitors &amp; Legal Consultants
+          </span>
         </Link>
 
         {/* Desktop nav */}
