@@ -1,7 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { navLinks } from "@/lib/data";
 import { Menu, X } from "lucide-react";
@@ -33,17 +32,13 @@ export default function Navbar() {
     >
       <nav className="max-w-8xl mx-auto px-6 lg:px-12 h-16 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex flex-col items-start group">
-          <Image
-            src="/images/logo.webp"
-            alt="White Tab Partners LLP"
-            width={200}
-            height={90}
-            className="h-11 w-auto object-contain"
-            style={{ filter: "invert(1)", mixBlendMode: "screen" }}
-            priority
-          />
-          <span className="text-[8.5px] tracking-[0.2em] text-gold/65 uppercase font-sans leading-tight -mt-0.5">
+        <Link href="/" className="flex flex-col group">
+          <span
+            className="font-serif text-xl font-medium tracking-[0.12em] text-cream uppercase leading-tight group-hover:text-gold-pale transition-colors"
+          >
+            White Tab Partners
+          </span>
+          <span className="text-[9px] tracking-[0.22em] text-gold/70 uppercase font-sans">
             Advocates, Solicitors &amp; Legal Consultants
           </span>
         </Link>
