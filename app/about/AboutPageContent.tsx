@@ -111,29 +111,6 @@ export default function AboutPageContent() {
               </motion.div>
             </motion.div>
 
-            <motion.div
-              className="lg:pt-14 space-y-4"
-              variants={stagger(0.1)}
-              initial="hidden"
-              whileInView="visible"
-              viewport={viewport}
-            >
-              {[
-                "Disputes, investigations, and recovery",
-                "Corporate and transactional advisory",
-                "White collar crime and enforcement",
-                "Cross-border and international matters",
-              ].map((item) => (
-                <motion.div
-                  key={item}
-                  variants={fadeUp}
-                  className="flex items-center gap-4 py-4 border-b border-gold/10"
-                >
-                  <span className="w-2 h-2 rounded-full bg-gold flex-shrink-0" />
-                  <span className="text-cream/80 font-sans text-base">{item}</span>
-                </motion.div>
-              ))}
-            </motion.div>
           </div>
         </div>
       </section>
