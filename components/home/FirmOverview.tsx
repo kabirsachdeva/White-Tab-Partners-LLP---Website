@@ -38,22 +38,38 @@ export default function FirmOverview() {
           >
             <motion.p variants={fadeUp}>
               White Tab Partners LLP is a full-service law firm with experience
-              in litigation, arbitration, corporate advisory, and forensic
-              matters. We advise clients in complex disputes, commercial matters,
-              and cross-border work from our offices in New Delhi and Dubai.
+              across litigation, arbitration, corporate advisory, and forensic
+              matters. We advise clients in complex disputes, commercial
+              transactions, and cross-border engagements from our offices in New
+              Delhi and Dubai, supported by a dedicated India-UAE international
+              desk.
             </motion.p>
             <motion.p variants={fadeUp}>
-              Our practice includes appearances before the Supreme Court of
-              India, the Delhi High Court, district courts, and specialist
-              tribunals such as the DRT and consumer forums. We also advise on
-              international matters, including arbitration and cross-border
-              transactions.
+              Our litigation practice spans the full hierarchy of Indian courts
+              and tribunals. We appear before the Supreme Court of India,
+              including before Constitution Benches, and before the Delhi High
+              Court and other High Courts across the country. We act in matters
+              before district and subordinate courts and before specialist forums
+              including the National Company Law Tribunal (NCLT) and the National
+              Company Law Appellate Tribunal (NCLAT), the Debt Recovery Tribunal
+              (DRT), and consumer forums. Our disputes work covers civil and
+              commercial litigation, insolvency and company-law proceedings,
+              criminal matters under the Negotiable Instruments Act, and recovery
+              actions.
             </motion.p>
             <motion.p variants={fadeUp}>
-              We work with associated Chartered Accountants, Company Secretaries,
-              and forensic professionals where a matter demands it, bringing
-              stronger factual and commercial depth to disputes, investigations,
-              and recovery work.
+              On the advisory side, we handle domestic and international
+              arbitration, corporate and commercial advisory, contract drafting
+              and vetting, and transactional work, including cross-border
+              arrangements. Members of the firm hold senior counsel appointments
+              for the Government of India and bring experience drawn from
+              regulatory and enforcement practice.
+            </motion.p>
+            <motion.p variants={fadeUp}>
+              Where a matter demands it, we work alongside associated Chartered
+              Accountants, Company Secretaries, and forensic professionals,
+              bringing stronger factual, financial, and commercial depth to
+              disputes, investigations, and recovery work.
             </motion.p>
           </motion.div>
         </div>
