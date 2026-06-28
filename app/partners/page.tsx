@@ -66,9 +66,6 @@ export default function PartnersPage() {
                       {partner.designation}
                     </p>
                   )}
-                  <p className="text-dark/40 text-xs font-sans tracking-wide mb-8">
-                    {partner.enrollment}
-                  </p>
 
                   <p className="text-dark/70 text-base leading-relaxed font-sans mb-4">
                     {partner.bio}
