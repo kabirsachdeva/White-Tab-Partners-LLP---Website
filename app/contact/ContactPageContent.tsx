@@ -81,7 +81,7 @@ export default function ContactPageContent() {
               </motion.div>
 
               <motion.div className="border border-gold/20 rounded-xl p-6" variants={fadeUp}>
-                <p className="text-dark/60 text-sm font-sans leading-relaxed">
+                <p className="text-dark/60 text-sm font-sans leading-relaxed text-justify">
                   All consultations are confidential. Our partners handle every
                   enquiry personally. You will not be passed to a junior
                   associate or a paralegal.

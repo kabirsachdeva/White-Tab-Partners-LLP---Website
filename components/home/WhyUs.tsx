@@ -81,7 +81,7 @@ export default function WhyUs() {
               <h3 className="font-serif text-xl text-cream font-light leading-snug mb-4">
                 {fixHyphen(p.title)}
               </h3>
-              <p className="text-cream/50 text-sm leading-relaxed font-sans">
+              <p className="text-cream/50 text-sm leading-relaxed font-sans text-justify">
                 {p.body}
               </p>
             </motion.div>

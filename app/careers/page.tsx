@@ -41,7 +41,7 @@ export default function CareersPage() {
               <p className="section-label mb-8" style={{ color: "#8B6914" }}>
                 Why Join Us
               </p>
-              <div className="space-y-5 text-dark/70 text-base leading-relaxed font-sans">
+              <div className="space-y-5 text-dark/70 text-base leading-relaxed font-sans text-justify">
                 <p>
                   We are always looking for lawyers and professionals who combine
                   intellectual rigour with genuine commitment to their clients.
@@ -72,7 +72,7 @@ export default function CareersPage() {
                   <h3 className="font-sans font-medium text-dark text-sm mb-1">
                     {q.title}
                   </h3>
-                  <p className="text-dark/55 text-sm font-sans leading-relaxed">
+                  <p className="text-dark/55 text-sm font-sans leading-relaxed text-justify">
                     {q.desc}
                   </p>
                 </div>
@@ -90,7 +90,7 @@ export default function CareersPage() {
             <h2 className="font-serif text-display-sm text-cream font-light mb-6">
               Send us your CV and a covering note.
             </h2>
-            <p className="text-cream/55 text-base leading-relaxed font-sans mb-10">
+            <p className="text-cream/55 text-base leading-relaxed font-sans mb-10 text-justify">
               Tell us what you are working towards, why White Tab Partners is the
               right place to build that practice, and what you would bring to the
               team. Applications are reviewed on a rolling basis.

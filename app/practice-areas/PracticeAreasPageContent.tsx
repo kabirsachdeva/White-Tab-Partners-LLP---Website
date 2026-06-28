@@ -60,7 +60,7 @@ export default function PracticeAreasPageContent() {
                 {group.title}
               </motion.p>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-end">
-                <motion.p className="text-dark/70 text-base leading-relaxed font-sans max-w-xl" variants={fadeUp}>
+                <motion.p className="text-dark/70 text-base leading-relaxed font-sans max-w-xl text-justify" variants={fadeUp}>
                   {group.overview}
                 </motion.p>
                 <motion.div variants={fadeUp}>

@@ -38,7 +38,7 @@ export default function InternationalDeskPageContent() {
             <motion.div variants={fadeLeft} initial="hidden" whileInView="visible" viewport={viewport}>
               <p className="section-label mb-8" style={{ color: "#8B6914" }}>Our Dubai Presence</p>
               <motion.div
-                className="space-y-5 text-dark/70 text-base leading-relaxed font-sans"
+                className="space-y-5 text-dark/70 text-base leading-relaxed font-sans text-justify"
                 variants={stagger(0.13)}
                 initial="hidden"
                 whileInView="visible"
@@ -110,7 +110,7 @@ export default function InternationalDeskPageContent() {
               >
                 <div className="w-8 h-px bg-gold mb-6" />
                 <h3 className="font-serif text-xl text-cream font-light mb-4">{svc.title}</h3>
-                <p className="text-cream/55 text-sm leading-relaxed font-sans">{svc.description}</p>
+                <p className="text-cream/55 text-sm leading-relaxed font-sans text-justify">{svc.description}</p>
               </motion.div>
             ))}
           </motion.div>

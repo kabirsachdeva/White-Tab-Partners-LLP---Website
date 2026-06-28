@@ -22,7 +22,7 @@ export default function DisclaimerPage() {
 
       <section className="bg-cream-light py-20">
         <div className="max-w-4xl mx-auto px-6 lg:px-12">
-          <div className="space-y-10 text-dark/70 text-base leading-relaxed font-sans">
+          <div className="space-y-10 text-dark/70 text-base leading-relaxed font-sans text-justify">
 
             <div>
               <h2 className="font-serif text-xl text-dark font-medium mb-4">

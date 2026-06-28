@@ -33,7 +33,7 @@ export default function InternationalDeskHome() {
             From Jumeirah Lake Towers, Dubai.
           </motion.h3>
           <motion.p
-            className="text-cream/60 text-base leading-relaxed font-sans mb-10"
+            className="text-cream/60 text-base leading-relaxed font-sans mb-10 text-justify"
             variants={fadeUp}
           >
             Our Dubai office supports clients on cross-border legal and advisory

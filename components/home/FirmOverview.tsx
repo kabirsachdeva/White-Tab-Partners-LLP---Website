@@ -30,7 +30,7 @@ export default function FirmOverview() {
           </motion.div>
 
           <motion.div
-            className="space-y-6 text-dark/70 text-base leading-relaxed font-sans"
+            className="space-y-6 text-dark/70 text-base leading-relaxed font-sans text-justify"
             variants={stagger(0.15)}
             initial="hidden"
             whileInView="visible"

@@ -43,7 +43,7 @@ export default function AboutPageContent() {
                 {brandStory.subheading}
               </h2>
               <motion.div
-                className="space-y-6 text-dark/70 text-base leading-relaxed font-sans"
+                className="space-y-6 text-dark/70 text-base leading-relaxed font-sans text-justify"
                 variants={stagger(0.15)}
                 initial="hidden"
                 whileInView="visible"
@@ -76,7 +76,7 @@ export default function AboutPageContent() {
                     className={`py-8 ${i < brandStory.taglineBreakdown.length - 1 ? "border-b border-dark/10" : ""}`}
                   >
                     <p className="font-serif text-2xl text-dark font-light mb-3">{item.word}</p>
-                    <p className="text-dark/60 text-sm leading-relaxed font-sans">{item.meaning}</p>
+                    <p className="text-dark/60 text-sm leading-relaxed font-sans text-justify">{item.meaning}</p>
                   </motion.div>
                 ))}
               </motion.div>
@@ -99,7 +99,7 @@ export default function AboutPageContent() {
               <motion.p className="font-serif text-2xl text-cream font-light leading-relaxed mb-8" variants={fadeUp}>
                 &ldquo;Research, preparation, and practical legal advice.&rdquo;
               </motion.p>
-              <motion.div className="space-y-5 text-cream/60 text-base leading-relaxed font-sans" variants={stagger(0.12)} initial="hidden" whileInView="visible" viewport={viewport}>
+              <motion.div className="space-y-5 text-cream/60 text-base leading-relaxed font-sans text-justify" variants={stagger(0.12)} initial="hidden" whileInView="visible" viewport={viewport}>
                 {[
                   "White Tab Partners LLP is a full-service law firm with experience in litigation, arbitration, corporate advisory, and forensic work. We act in courts, tribunals, and commercial matters, and we support clients from both our offices in New Delhi and Dubai.",
                   "Our practice includes appearances before the Supreme Court of India, the Delhi High Court, district courts, and specialist tribunals such as the DRT and consumer forums. We also advise on international matters, including arbitration and cross-border transactions.",
@@ -163,7 +163,7 @@ export default function AboutPageContent() {
               >
                 <span className="font-serif text-4xl text-gold/30 font-light block mb-4">{d.number}</span>
                 <h3 className="font-serif text-xl text-dark font-medium mb-4">{d.title}</h3>
-                <p className="text-dark/60 text-sm leading-relaxed font-sans">{d.body}</p>
+                <p className="text-dark/60 text-sm leading-relaxed font-sans text-justify">{d.body}</p>
               </motion.div>
             ))}
           </motion.div>
