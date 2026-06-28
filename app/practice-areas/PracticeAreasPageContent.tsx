@@ -87,8 +87,7 @@ export default function PracticeAreasPageContent() {
             >
               {group.areas.map((area) => (
                 <motion.div key={area.name} variants={fadeUp} className="group">
-                  <h3 className="font-serif text-lg text-dark font-medium mb-4 flex items-center gap-3">
-                    <span className="text-gold/60 text-xs flex-shrink-0">◆</span>
+                  <h3 className="font-serif text-lg text-dark font-medium mb-4 uppercase tracking-wide">
                     {area.name}
                   </h3>
                   <ul className="space-y-2.5">

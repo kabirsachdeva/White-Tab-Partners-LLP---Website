@@ -362,7 +362,7 @@ export const practiceAreaGroups = [
       {
         name: "Matrimonial Law",
         items: [
-          "Divorce proceedings — contested and mutual consent",
+          "Divorce proceedings, contested and mutual consent",
           "Matrimonial property and asset division",
           "Maintenance and alimony claims",
           "Child custody, guardianship, and visitation rights",
