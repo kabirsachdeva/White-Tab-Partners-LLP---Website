@@ -34,7 +34,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-cream/60 text-lg md:text-xl leading-relaxed max-w-2xl mx-auto mb-12 font-sans font-light">
-            A senior-led Indian law firm with offices in New Delhi and Dubai.
+            An Indian law firm with offices in New Delhi and Dubai.
             Built for disputes, investigations, and cross-border matters that
             demand more than routine legal work.
           </p>
