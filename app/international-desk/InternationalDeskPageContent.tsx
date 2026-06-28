@@ -108,7 +108,7 @@ export default function InternationalDeskPageContent() {
                 variants={fadeUp}
                 className="dark-card p-8 hover:border-gold/30 transition-colors"
               >
-                <div className="w-8 h-px bg-gold mb-6" />
+
                 <h3 className="font-serif text-xl text-cream font-light mb-4">{svc.title}</h3>
                 <p className="text-cream/55 text-sm leading-relaxed font-sans text-justify">{svc.description}</p>
               </motion.div>
