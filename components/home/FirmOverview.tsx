@@ -8,10 +8,15 @@ export default function FirmOverview() {
               Firm Overview
             </p>
             <blockquote className="font-serif text-[clamp(1.5rem,3vw,2.2rem)] text-dark leading-[1.3] font-light">
-              &ldquo;We named this firm after the white tab because it represents
-              something specific: that when a lawyer stands before a court, their
-              word must be reliable. That standard governs every instruction we
-              take.&rdquo;
+              The white tab finds its origin in the Tablets of Moses, a timeless
+              symbol of integrity, moral conviction, and the foundations of law.
+              We chose it as our name because it captures what we believe
+              lawyering should stand for: trust earned through principle, and
+              counsel given with clarity. At White Tab Partners, every client
+              matter is approached with the same conviction. Your interests are
+              protected with diligence, your confidence honoured without
+              exception. With us, you do not just retain a firm. You gain a
+              partner you can rely on, a White Tab Partner.
             </blockquote>
           </div>
 
