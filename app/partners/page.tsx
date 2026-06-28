@@ -67,11 +67,11 @@ export default function PartnersPage() {
                     </p>
                   )}
 
-                  <p className="text-dark/70 text-base leading-relaxed font-sans mb-4">
+                  <p className="text-dark/70 text-base leading-relaxed font-sans mb-4 text-justify">
                     {partner.bio}
                   </p>
                   {partner.bioExtended && (
-                    <p className="text-dark/60 text-sm leading-relaxed font-sans mb-8">
+                    <p className="text-dark/60 text-sm leading-relaxed font-sans mb-8 text-justify">
                       {partner.bioExtended}
                     </p>
                   )}
