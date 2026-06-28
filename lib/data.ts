@@ -348,6 +348,29 @@ export const practiceAreaGroups = [
           "Multi-jurisdictional litigation strategy",
         ],
       },
+      {
+        name: "Negotiable Instruments",
+        items: [
+          "Cheque dishonour proceedings under Section 138 NI Act",
+          "Defence and representation in NI Act trials",
+          "Appellate and revisional proceedings",
+          "Compounding and settlement negotiations",
+          "Interim relief and stay applications",
+          "Bulk NI Act matters for financial institutions and corporates",
+        ],
+      },
+      {
+        name: "Matrimonial Law",
+        items: [
+          "Divorce proceedings — contested and mutual consent",
+          "Matrimonial property and asset division",
+          "Maintenance and alimony claims",
+          "Child custody, guardianship, and visitation rights",
+          "Domestic violence proceedings under the DV Act",
+          "Restitution of conjugal rights and judicial separation",
+          "Cross-border matrimonial disputes and NRI matters",
+        ],
+      },
     ],
   },
   {
