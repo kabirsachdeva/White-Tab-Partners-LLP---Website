@@ -1,9 +1,18 @@
+"use client";
+import { motion } from "framer-motion";
+import { fadeUp, fadeLeft, stagger, viewport } from "@/lib/animations";
+
 export default function FirmOverview() {
   return (
     <section className="bg-cream-light py-24">
       <div className="max-w-8xl mx-auto px-6 lg:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
-          <div>
+          <motion.div
+            variants={fadeLeft}
+            initial="hidden"
+            whileInView="visible"
+            viewport={viewport}
+          >
             <p className="section-label mb-8" style={{ color: "#8B6914" }}>
               Firm Overview
             </p>
@@ -18,29 +27,35 @@ export default function FirmOverview() {
               exception. With us, you do not just retain a firm. You gain a
               partner you can rely on, a White Tab Partner.
             </blockquote>
-          </div>
+          </motion.div>
 
-          <div className="space-y-6 text-dark/70 text-base leading-relaxed font-sans">
-            <p>
+          <motion.div
+            className="space-y-6 text-dark/70 text-base leading-relaxed font-sans"
+            variants={stagger(0.15)}
+            initial="hidden"
+            whileInView="visible"
+            viewport={viewport}
+          >
+            <motion.p variants={fadeUp}>
               White Tab Partners LLP is a full-service law firm with experience
               in litigation, arbitration, corporate advisory, and forensic
               matters. We advise clients in complex disputes, commercial matters,
               and cross-border work from our offices in New Delhi and Dubai.
-            </p>
-            <p>
+            </motion.p>
+            <motion.p variants={fadeUp}>
               Our practice includes appearances before the Supreme Court of
               India, the Delhi High Court, district courts, and specialist
               tribunals such as the DRT and consumer forums. We also advise on
               international matters, including arbitration and cross-border
               transactions.
-            </p>
-            <p>
+            </motion.p>
+            <motion.p variants={fadeUp}>
               We work with associated Chartered Accountants, Company Secretaries,
               and forensic professionals where a matter demands it, bringing
               stronger factual and commercial depth to disputes, investigations,
               and recovery work.
-            </p>
-          </div>
+            </motion.p>
+          </motion.div>
         </div>
       </div>
     </section>

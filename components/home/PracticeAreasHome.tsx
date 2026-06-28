@@ -1,12 +1,21 @@
+"use client";
 import Link from "next/link";
 import { practiceAreaGroups } from "@/lib/data";
+import { motion } from "framer-motion";
+import { fadeUp, stagger, viewport } from "@/lib/animations";
 
 export default function PracticeAreasHome() {
   return (
     <section className="bg-cream-light py-24">
       <div className="max-w-8xl mx-auto px-6 lg:px-12">
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-14 gap-6">
-          <div>
+        <motion.div
+          className="flex flex-col md:flex-row md:items-end justify-between mb-14 gap-6"
+          variants={stagger(0.12)}
+          initial="hidden"
+          whileInView="visible"
+          viewport={viewport}
+        >
+          <motion.div variants={fadeUp}>
             <p className="section-label mb-6" style={{ color: "#8B6914" }}>
               Practice Areas
             </p>
@@ -15,18 +24,26 @@ export default function PracticeAreasHome() {
               <br />
               advisory representation.
             </h2>
-          </div>
-          <Link
-            href="/practice-areas"
-            className="border border-dark/20 hover:border-dark/50 text-dark text-[11px] tracking-[0.15em] uppercase font-sans font-medium px-6 py-3 rounded-full transition-colors self-start md:self-auto whitespace-nowrap"
-          >
-            View All Practice Areas →
-          </Link>
-        </div>
+          </motion.div>
+          <motion.div variants={fadeUp}>
+            <Link
+              href="/practice-areas"
+              className="border border-dark/20 hover:border-dark/50 text-dark text-[11px] tracking-[0.15em] uppercase font-sans font-medium px-6 py-3 rounded-full transition-colors self-start md:self-auto whitespace-nowrap"
+            >
+              View All Practice Areas →
+            </Link>
+          </motion.div>
+        </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <motion.div
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
+          variants={stagger(0.1)}
+          initial="hidden"
+          whileInView="visible"
+          viewport={viewport}
+        >
           {practiceAreaGroups.map((group) => (
-            <div key={group.id}>
+            <motion.div key={group.id} variants={fadeUp}>
               <h3 className="font-serif text-xl text-dark font-medium mb-5 pb-3 border-b border-dark/10">
                 {group.title}
               </h3>
@@ -43,9 +60,9 @@ export default function PracticeAreasHome() {
                   </li>
                 ))}
               </ul>
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </section>
   );
