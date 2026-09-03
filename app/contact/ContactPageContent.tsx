@@ -52,7 +52,7 @@ export default function ContactPageContent() {
             >
               {offices.map((office) => (
                 <motion.div key={office.city} variants={fadeUp}>
-                  <p className="section-label mb-5" style={{ color: "#B8943F" }}>{office.city}</p>
+                  <p className="section-label mb-5" style={{ color: "#8B6914" }}>{office.city}</p>
                   {office.addresses.map((addr, i) => (
                     <p key={i} className="text-dark/65 text-sm font-sans leading-relaxed whitespace-pre-line mb-3">
                       {addr}
@@ -62,7 +62,7 @@ export default function ContactPageContent() {
               ))}
 
               <motion.div variants={fadeUp}>
-                <p className="section-label mb-5" style={{ color: "#B8943F" }}>Contact</p>
+                <p className="section-label mb-5" style={{ color: "#8B6914" }}>Contact</p>
                 <div className="space-y-3">
                   <a href={`mailto:${firmData.email}`} className="flex items-center gap-2 text-dark/65 hover:text-dark text-sm font-sans transition-colors">
                     <Mail size={14} className="text-gold/70" />

@@ -36,7 +36,7 @@ export default function InternationalDeskPageContent() {
         <div className="max-w-8xl mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             <motion.div variants={fadeLeft} initial="hidden" whileInView="visible" viewport={viewport}>
-              <p className="section-label mb-8" style={{ color: "#B8943F" }}>Our Dubai Presence</p>
+              <p className="section-label mb-8" style={{ color: "#8B6914" }}>Our Dubai Presence</p>
               <motion.div
                 className="space-y-5 text-dark/70 text-base leading-relaxed font-sans text-justify"
                 variants={stagger(0.13)}

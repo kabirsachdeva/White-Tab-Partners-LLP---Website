@@ -38,7 +38,7 @@ export default function CareersPage() {
         <div className="max-w-8xl mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             <div>
-              <p className="section-label mb-8" style={{ color: "#B8943F" }}>
+              <p className="section-label mb-8" style={{ color: "#8B6914" }}>
                 Why Join Us
               </p>
               <div className="space-y-5 text-dark/70 text-base leading-relaxed font-sans text-justify">
@@ -61,7 +61,7 @@ export default function CareersPage() {
             </div>
 
             <div className="space-y-4">
-              <p className="section-label mb-6" style={{ color: "#B8943F" }}>
+              <p className="section-label mb-6" style={{ color: "#8B6914" }}>
                 What We Look For
               </p>
               {qualities.map((q) => (

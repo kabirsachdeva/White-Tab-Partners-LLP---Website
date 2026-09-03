@@ -13,7 +13,7 @@ export default function FirmOverview() {
             whileInView="visible"
             viewport={viewport}
           >
-            <p className="section-label mb-8" style={{ color: "#B8943F" }}>
+            <p className="section-label mb-8" style={{ color: "#8B6914" }}>
               Firm Overview
             </p>
             <blockquote className="font-serif text-[clamp(1.5rem,3vw,2.2rem)] text-dark leading-[1.3] font-light">

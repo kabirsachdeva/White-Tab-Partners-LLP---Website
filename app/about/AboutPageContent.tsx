@@ -38,7 +38,7 @@ export default function AboutPageContent() {
         <div className="max-w-8xl mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-start">
             <motion.div variants={fadeLeft} initial="hidden" whileInView="visible" viewport={viewport}>
-              <p className="section-label mb-8" style={{ color: "#B8943F" }}>{brandStory.heading}</p>
+              <p className="section-label mb-8" style={{ color: "#8B6914" }}>{brandStory.heading}</p>
               <h2 className="font-serif text-display-md text-dark font-light leading-tight mb-10">
                 {brandStory.subheading}
               </h2>
@@ -120,7 +120,7 @@ export default function AboutPageContent() {
         <div className="max-w-8xl mx-auto px-6 lg:px-12">
           <motion.p
             className="section-label mb-12"
-            style={{ color: "#B8943F" }}
+            style={{ color: "#8B6914" }}
             variants={fadeUp} initial="hidden" whileInView="visible" viewport={viewport}
           >
             What Sets Us Apart

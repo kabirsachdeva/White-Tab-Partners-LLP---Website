@@ -80,11 +80,9 @@ export default function ContactForm() {
     <form onSubmit={handleSubmit(onSubmit)} noValidate className="space-y-6">
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         <div>
-          <label htmlFor="cf-name" className={labelClass}>Full Name *</label>
+          <label className={labelClass}>Full Name *</label>
           <input
-            id="cf-name"
             {...register("name")}
-            autoComplete="name"
             placeholder="Your full name"
             className={clsx(inputClass, errors.name && "border-red-400 ring-red-200")}
           />
@@ -93,12 +91,10 @@ export default function ContactForm() {
           )}
         </div>
         <div>
-          <label htmlFor="cf-email" className={labelClass}>Email Address *</label>
+          <label className={labelClass}>Email Address *</label>
           <input
-            id="cf-email"
             {...register("email")}
             type="email"
-            autoComplete="email"
             placeholder="your@email.com"
             className={clsx(inputClass, errors.email && "border-red-400 ring-red-200")}
           />
@@ -110,19 +106,17 @@ export default function ContactForm() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         <div>
-          <label htmlFor="cf-phone" className={labelClass}>Phone Number</label>
+          <label className={labelClass}>Phone Number</label>
           <input
-            id="cf-phone"
             {...register("phone")}
             type="tel"
-            autoComplete="tel"
             placeholder="+91 98765 43210"
             className={inputClass}
           />
         </div>
         <div>
-          <label htmlFor="cf-office" className={labelClass}>Preferred Office</label>
-          <select id="cf-office" {...register("office")} className={inputClass}>
+          <label className={labelClass}>Preferred Office</label>
+          <select {...register("office")} className={inputClass}>
             <option value="">Select office</option>
             <option value="New Delhi">New Delhi</option>
             <option value="Dubai">Dubai</option>
@@ -132,9 +126,8 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <label htmlFor="cf-subject" className={labelClass}>Subject *</label>
+        <label className={labelClass}>Subject *</label>
         <input
-          id="cf-subject"
           {...register("subject")}
           placeholder="Brief description of the matter"
           className={clsx(inputClass, errors.subject && "border-red-400 ring-red-200")}
@@ -145,9 +138,8 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <label htmlFor="cf-message" className={labelClass}>Message *</label>
+        <label className={labelClass}>Message *</label>
         <textarea
-          id="cf-message"
           {...register("message")}
           rows={6}
           placeholder="Please describe your matter in brief. All information is treated as strictly confidential."
