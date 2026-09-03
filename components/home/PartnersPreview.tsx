@@ -19,13 +19,13 @@ export default function PartnersPreview() {
           viewport={viewport}
         >
           <motion.div variants={fadeUp}>
-            <p className="section-label mb-6" style={{ color: "#8B6914" }}>
+            <p className="section-label mb-6" style={{ color: "#B8943F" }}>
               Our Partners
             </p>
             <h2 className="font-serif text-display-md text-dark font-light">
               Experienced hands,
               <br />
-              <span style={{ color: "#8B6914" }}>directly on your matter.</span>
+              <span style={{ color: "#B8943F" }}>directly on your matter.</span>
             </h2>
           </motion.div>
           <motion.div variants={fadeUp}>

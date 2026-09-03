@@ -16,7 +16,7 @@ export default function PracticeAreasHome() {
           viewport={viewport}
         >
           <motion.div variants={fadeUp}>
-            <p className="section-label mb-6" style={{ color: "#8B6914" }}>
+            <p className="section-label mb-6" style={{ color: "#B8943F" }}>
               Practice Areas
             </p>
             <h2 className="font-serif text-display-md text-dark font-light leading-snug">

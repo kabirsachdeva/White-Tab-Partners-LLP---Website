@@ -1,9 +1,20 @@
 "use client";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { useState, useRef } from "react";
 import { fadeUp, stagger, viewport } from "@/lib/animations";
 
 export default function Hero() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [playing, setPlaying] = useState(true);
+
+  const togglePlay = () => {
+    const v = videoRef.current;
+    if (!v) return;
+    if (v.paused) { v.play(); setPlaying(true); }
+    else { v.pause(); setPlaying(false); }
+  };
+
   return (
     <>
       <section className="relative min-h-[92vh] flex items-center justify-center overflow-hidden bg-dark">
@@ -77,15 +88,25 @@ export default function Hero() {
       </section>
 
       {/* Brand Film — full-width banner */}
-      <div className="w-full bg-dark overflow-hidden">
+      <div className="w-full bg-dark overflow-hidden relative group">
         <video
+          ref={videoRef}
           src="/videos/firm-intro.mp4"
+          poster="/images/logo-actual.jpg"
           autoPlay
           muted
           loop
           playsInline
           className="w-full h-auto block"
+          aria-label="White Tab Partners LLP brand film"
         />
+        <button
+          onClick={togglePlay}
+          aria-label={playing ? "Pause brand film" : "Play brand film"}
+          className="absolute bottom-4 right-4 opacity-0 group-hover:opacity-100 focus:opacity-100 transition-opacity bg-dark/60 hover:bg-dark/80 text-cream border border-cream/20 rounded-full w-9 h-9 flex items-center justify-center text-xs font-sans"
+        >
+          {playing ? "⏸" : "▶"}
+        </button>
       </div>
     </>
   );

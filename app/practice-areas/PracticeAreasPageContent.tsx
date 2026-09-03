@@ -56,7 +56,7 @@ export default function PracticeAreasPageContent() {
               whileInView="visible"
               viewport={viewport}
             >
-              <motion.p className="section-label mb-6" style={{ color: "#8B6914" }} variants={fadeUp}>
+              <motion.p className="section-label mb-6" style={{ color: "#B8943F" }} variants={fadeUp}>
                 {group.title}
               </motion.p>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-end">
