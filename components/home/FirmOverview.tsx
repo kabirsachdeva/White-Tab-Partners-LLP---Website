@@ -36,6 +36,13 @@ export default function FirmOverview() {
             whileInView="visible"
             viewport={viewport}
           >
+            <motion.h2
+              variants={fadeUp}
+              className="font-serif text-xl text-dark font-light leading-snug mb-2"
+            >
+              Commercial litigation, dispute resolution and legal advisory
+              across India and internationally.
+            </motion.h2>
             <motion.p variants={fadeUp}>
               White Tab Partners LLP is a full-service law firm with experience
               across litigation, arbitration, corporate advisory, and forensic
